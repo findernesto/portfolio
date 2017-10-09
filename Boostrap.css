@@ -1,0 +1,159 @@
+/* Box-Sizing Widget */ 
+
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+/*Suggested to keep margin and padding to 0*/
+* {
+  margin: 0;
+  padding: 0;
+}
+ 
+ul {
+  list-style-type: none; 
+}
+/* JUMBOTRON CSS */ 
+.jumbotron { 
+    margin-bottom: 0px;
+    background-image: url("TheBean.jpg");
+    opacity: 0.45; 
+    width: 100%;
+    height: 100%;
+    overflow: hidden;  
+    background-size: cover;
+    background-position: center;   
+    background-repeat: no-repeat;
+    color: #fff;        
+    text-shadow: blue 0.3em 0 0 0 ;
+    text-shadow: black 0.3em 0.3em 0.3em; 
+    margin: 0px; 
+
+}
+.display-3 {
+  text-align: center; 
+  font-family: "Montserrat", sans-serif; 
+  font-weight: bold; 
+}
+
+#front-end {
+  font-weight: bold; 
+  text-align: center; 
+  font-size: 30px; 
+}
+
+#learn-more {
+  font-weight: bold; 
+  text-align: center;
+  font-size: 26px;  
+}
+
+.icon_lists {
+  display: block; 
+  margin: 20px;  
+}
+
+.footer {
+  display: block;     
+}
+.rock {
+  text-align: center; 
+}
+body {
+  font-family: "Montserrat", sans-serif; 
+}
+
+.intro {
+  text-align: center; 
+  font-weight: bold; 
+  font-size: 40px; 
+  line-height: 46px; 
+}
+
+.introsubtitle {
+  text-align: center; 
+  font-weight: 200; 
+  font-size: 24px; 
+  line-height:30px; 
+}
+.gelogo {
+  height: 80px; 
+  width: 100px; 
+}
+
+/*ERNESTO MAC*/
+#ernestomac {
+  height: 100%; 
+  width: 100%;
+  margin: 0;    
+}
+ 
+
+
+/* EXPERTISE SECTION */
+.intro {
+  margin-top: 45px; 
+}
+.col-sm-4 img {
+    display:block;
+    text-align:center
+}
+
+#expertise, #process, #code {
+  text-align: center;
+  margin-top: 10px;  
+}
+.iconname{
+  font-weight: bold; 
+  text-align: center; 
+  display: block; 
+  margin-top: 5px; 
+}
+/*ICONS */
+.material-icons.md-48 { 
+  font-size: 48px; 
+  display: block; 
+  text-align: center; 
+
+}
+
+/*WELCOME MESSAGE*/
+
+#welcomingtext {
+  /*margin-left: 200px;*/
+  font-weight: 200;  
+  display: block; 
+  vertical-align: middle; 
+  text-align: center; 
+}
+/*BUTTON CSS*/
+.btn {
+  padding: 7px 10px;
+  margin: 2.5px;
+  /*border: 1px solid #0099cc;*/
+  border: 5px solid;  
+  border-color: black;    
+  text-transform: uppercase; 
+  letter-spacing: 1px; 
+  font-weight: 600; 
+  border-radius: 20px; 
+}
+
+.summary {
+  margin-left: 50px; 
+  margin-right: 10px; 
+}
+
+#location_section {
+  display: table-cell;   
+  text-align: center; 
+  margin-top: 5%; 
+}
+
+/*NAV BAR*/
+header {
+  text-align: right;  
+  color: pink; 
+
+}
